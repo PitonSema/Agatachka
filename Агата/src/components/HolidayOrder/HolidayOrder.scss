@@ -1,0 +1,102 @@
+.main-container-HolidayOrder {
+  margin-top: -5px;
+  width: 100%;
+  height: 657px;
+  background: url(../../helpers/img/font5.jpg) no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  input, button, textarea{
+    outline: none;
+  }
+  .content {
+    text-align: center;
+
+    .main-header {
+      font-size: 26px;
+      color: rgb(245, 51, 51);
+      font-weight: bold;
+      line-height: 1.2;
+      margin-bottom: 30px;
+    }
+
+    .header {
+      font-size: 20px;
+      color: rgb(0, 0, 0);
+      line-height: 1.2;
+      margin-bottom: 20px;
+    }
+
+    .content-form {
+      display: flex;
+      justify-content: space-between;
+
+      input {
+        border: 1px solid black;
+        border-radius: 6px;
+        width: 200px;
+        margin-bottom: 30px;
+        padding: 3px 5px;
+      }
+
+
+      .content-form-left {
+        display: flex;
+        justify-content: space-between;
+
+        span {
+          margin-right: 20px;
+          font-size: 18px;
+          color: rgb(76, 74, 74);
+          line-height: 1.2;
+        }
+      }
+
+      .content-form-rigth {
+        display: flex;
+        justify-content: space-between;
+
+        span {
+          margin-right: 20px;
+          font-size: 18px;
+          color: rgb(76, 74, 74);
+          line-height: 1.2;
+        }
+      }
+
+    }
+
+    .content-form-bootom {
+
+      span {
+        font-size: 18px;
+        color: rgb(76, 74, 74);
+        line-height: 1.2;
+      }
+
+      textarea {
+        border: 1px solid black;
+        padding: 2px 8px;
+        border-radius: 7px;
+        resize: none;
+        width: 100%;
+        height: 100px;
+        margin-top: 20px;
+      }
+
+      button {
+        border: 0;
+        border-radius: 32px;
+        background-color: rgb(238, 18, 18);
+        width: 157px;
+        height: 31px;
+        color: white;
+        margin-top: 30px;
+        cursor: pointer;
+      }
+    }
+  }
+}

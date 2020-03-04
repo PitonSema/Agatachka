@@ -1,0 +1,19 @@
+.main-container-IsReview{
+  background: white;
+  display: block;
+  width: 1200px;
+  // border-radius: 10px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 10px;
+  margin: 20px 0;
+  box-shadow: 0 0 10px black;
+
+  .nick{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .review{
+    font-size: 15px;
+  }
+}

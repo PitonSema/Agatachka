@@ -1,0 +1,30 @@
+.main-conteiner-Heder {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  background-color: white;
+  a {
+    color: black;
+    margin-left: 10px;
+    padding: 3px 5px;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+      background: rgb(238, 18, 18);
+      color: white;
+      border-radius: 10px;
+    }
+  }
+
+  nav {
+    display: flex;
+  }
+}
+
+.menuActiv{
+  background: rgba(238, 18, 18, 0.602);
+  color: white !important;
+  border-radius: 10px;
+}

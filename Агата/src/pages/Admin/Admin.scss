@@ -1,0 +1,90 @@
+.Main-container-Admin {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: url(../../helpers/img/fonnn.png) no-repeat;
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .Password {
+    padding: 20px;
+    background: white;
+    width: 300px;
+    text-align: center;
+
+    input {
+      margin: 10px 0;
+    }
+
+    span {
+      font-size: 22px;
+      color: rgb(80, 80, 80);
+    }
+  }
+}
+
+.Request {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid rgb(238, 238, 238);
+  height: 60px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.644);
+
+  &:hover{
+    background: rgb(255, 255, 255);
+  }
+}
+
+.MainRequest{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  background:rgb(248, 248, 248);
+  margin-bottom: 10px;
+}
+
+.Reviews {
+  margin: 0;
+  padding: 0;
+  .Review {
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(80, 80, 80);
+  
+    .Name{
+      font-size: 18px;
+      font-weight: 900;
+      width: 200px;
+    }
+    .Masseges{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    ._id{
+      font-size: 14px;
+      widows: 50px;
+      margin-right: 20px;
+    }
+  }
+}
+
+.Requests{
+  margin-top: -50px;
+  background: url(../../helpers/img/fonnn.png);
+  background-size: 100%;
+  margin-top: -17px;
+  width: 100%;
+  height: 100vh;
+}
